@@ -1,0 +1,122 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Kayıt Formu Konteyneri */
+  .register-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Başlık */
+  .register-container h2 {
+    margin-bottom: 1.5rem;
+    color: #333333;
+  }
+  
+  /* Form Etiketleri ve Giriş Alanları */
+  .register-container label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .register-container input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .register-container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Buton */
+  .register-container button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Sözleşme Onayı */
+  .terms-container {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  .terms-container input {
+    margin-right: 0.5rem;
+  }
+  
+  .terms-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .terms-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hata ve Başarı Mesajları */
+  .error-message, .success-message {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+  
+  .success-message {
+    color: #5bc0de;
+  }
+  @media (max-width: 768px) {
+    .register-container {
+      padding: 1rem;
+      margin: 1rem;
+    }
+  
+    .register-container input {
+      padding: 0.6rem;
+    }
+  
+    .register-container button {
+      padding: 0.6rem;
+    }
+  }
+  .password-strength {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  .error-message {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+  
+  .success-message {
+    color: #5bc0de;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+    
