@@ -19,7 +19,7 @@ app.post('/register', (req, res) => {
   const existingUser = users.find(user => user.email === email);
 
   if (existingUser) {
-    return res.status(400).json({ message: 'User already exists' });
+    return res.status(400).json({ message: 'User already existss' });
   }
 
   // Yeni kullanıcıyı ekle
